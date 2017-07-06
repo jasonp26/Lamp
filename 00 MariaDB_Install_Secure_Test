@@ -1,0 +1,18 @@
+The first step to installing MySQL on Centos is to run the following command.
+
+# Installing MariaDB
+
+$ sudo yum install mariadb-server
+
+You then need to ensure that the DB service is started and enabled to start during system reboots
+
+$ sudo systemctl start mariadb
+$ sudo systemctl enable mariadb
+
+# Securing MariaDB
+
+$ sudo mysql_secure_installation
+
+#Testing MariaDB (MySQL)
+
+$ mysqladmin -u root -p version
