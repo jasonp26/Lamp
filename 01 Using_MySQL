@@ -1,0 +1,34 @@
+# How to Create and Delete a MySQL Database
+
+# To access the MySQL shell:
+
+$ mysql -u root -p
+
+# To view what databases are available (none at the moment, do the following commands):
+
+$ SHOW DATABASES;
+
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| TestDB             |
+| mysql              |
+| performance_schema |
++--------------------+
+
+$ CREATE DATABASE TestDB;
+
+# To Delete a database do:
+
+$ DROP DATABASE TestDB;
+
+# To Access the new Database do:
+
+$ USE TestDB;
+
+# To view the tables of this new DB:
+
+$ SHOW TABLES;
+
+# Next you will need to create tables in your Database.
