@@ -9,6 +9,10 @@ You then need to ensure that the DB service is started and enabled to start duri
 $ sudo systemctl start mariadb
 $ sudo systemctl enable mariadb
 
+To check the status of the service:
+
+$ sudo systemctl status mariadb
+
 # Securing MariaDB
 
 $ sudo mysql_secure_installation
