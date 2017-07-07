@@ -1,0 +1,10 @@
+Now we have a database we need to populate it with some data.  First we gain access to the database and then we create a table which we will populate.
+
+# Access the database again by using this command
+
+$ mysql -u root -p
+
+$ show databases; (to display the databases available on the system)
+
+$ use [database name]; (this will access the db)
+
